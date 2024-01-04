@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'CBDF_NPVA_EJERCICIO_14' title`, () => {
+  it(`should have the 'CBDF_EDTA_13' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('CBDF_NPVA_EJERCICIO_14');
+    expect(app.title).toEqual('CBDF_EDTA_13');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, CBDF_NPVA_EJERCICIO_14');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, CBDF_EDTA_13');
   });
 });

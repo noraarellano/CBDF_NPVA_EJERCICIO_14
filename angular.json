@@ -25,9 +25,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/plugins/fontawesome-free/css/all.min.css",
+              "src/assets/dist/css/adminlte.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/plugins/jquery/jquery.min.js",
+              "src/assets/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/dist/js/adminlte.min.js",
+              "src/assets/dist/js/demo.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -91,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
